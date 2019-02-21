@@ -15,6 +15,6 @@
     
     > ![ubuntu1](../../master/virtualbox/images/onho2.PNG)
     
-    > 登入虛擬機，查詢ip(指令 ip a s。ip為192.168.56.101、192.168.56.102 …。表示設定成功)
+    > 登入虛擬機，查詢ip(指令 ip a s。ip為192.168.56.101、192.168.56.102。表示設定成功)
     
     > ![ubuntu1](../../master/virtualbox/images/onho3.PNG)
