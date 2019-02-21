@@ -7,10 +7,10 @@
 *   如果想讓虛擬機啟動時，自動執行一些初始化腳本，可透過 Vagrant 的 provisioning 功能，把初始化的 script 寫在 Vagrantfile 裡面的 provision 區塊。
 *   此範本為依次安裝多台虛擬機 [Vagrantfile範本](https://github.com/yijinwu1/Installation-Manual/blob/master/Vagrant/Vagrantfile)    
     > ![Install](../../master/Vagrant/images/vf3.png)
-    > 要做幾台，就複製幾段    
-    > config.vm.define "master1"：為虛擬機命名
-    > node.vm.hostname = "master1"：設定hostname
-    > node.vm.network :public_network, ip: "192.168.33.90"：設定網路橋接方式
-    > v.cpus = 1：cpu
-    > v.memory = 1024：ram大小 
-    > node.vm.provision "shell", path: "scripts/sethosts.sh", run: "always：shell檔路徑
+*   要做幾台，就複製幾段
+*   config.vm.define "master1"：為虛擬機命名
+*   node.vm.hostname = "master1"：設定hostname
+*   node.vm.network :public_network, ip: "192.168.33.90"：設定網路橋接方式
+*   v.cpus = 1：cpu
+*   v.memory = 1024：ram大小 
+*   node.vm.provision "shell", path: "scripts/sethosts.sh", run: "always：shell檔路徑
