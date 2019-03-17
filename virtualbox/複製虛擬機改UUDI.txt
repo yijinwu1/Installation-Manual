@@ -1,4 +1,6 @@
-﻿開啟命令提示字元 → 切換到新建虛擬機vdi檔，所在目錄 → 
+版本 5.2.26 r128414 (Qt5.6.2)，以前的版本才需要使用
+
+開啟命令提示字元 → 切換到新建虛擬機vdi檔，所在目錄 → 
 輸入指令「
 
 "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands sethduuid XXX.vdi
