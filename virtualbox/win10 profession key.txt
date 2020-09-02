@@ -1,0 +1,10 @@
+
+  Windows 10 Profession 專業版
+  系統管理員身分執行cmd
+  C:\Windows\system32>slmgr.vbs /upk -> 成功移除了產品金鑰
+
+  C:\Windows\system32>slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX -> 成功安裝產品金鑰
+
+  C:\Windows\system32>slmgr /skms zh.us.to -> 金鑰管理服務計算機名成功的設置為 zh.us.to
+
+  C:\Windows\system32>slmgr /ato  -> 成功的啟用了產品
